@@ -1,0 +1,24 @@
+{
+    "name": "mario-naether/php-ci-template",
+    "description": "",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Mario Näther"
+            
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        
+    },
+    "extra": {
+        
+    }
+}
+
