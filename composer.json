@@ -1,7 +1,7 @@
 {
     "name": "mario-naether/php-ci-template",
     "description": "",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "keywords": [],
     "authors": [
         {
