@@ -12,6 +12,16 @@
 
     "require": {
         "codeception/codeception": "^2.2",
+        "captbaritone/mailcatcher-codeception-module": "1.*",
+        "dlabs/codeception-module-visualception": "dev-master",
+        "codeception/verify": "^0.3.2",
+        "codeception/specify": "^0.4.5",
+        "codeception/mockery-module": "^0.2.2",
+        "nathanmac/datetime-codeception-module": "^1.2",
+        "codeception/robo-paracept":"~0.2",
+        "league/factory-muffin": "*@stable",
+        "league/factory-muffin-faker": "*@stable",
+
         "mikey179/vfsStream": "*@stable",
         "pdepend/pdepend": "*@stable",
         "phploc/phploc": "*@stable",
@@ -21,11 +31,5 @@
         "sebastian/phpcpd": "*@stable",
         "squizlabs/php_codesniffer": "*@stable",
         "theseer/phpdox": "*@stable"
-    },
-    "autoload": {
-
-    },
-    "extra": {
-        
     }
 }
