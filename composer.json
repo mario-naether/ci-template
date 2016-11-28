@@ -24,12 +24,15 @@
 
         "mikey179/vfsStream": "*@stable",
         "pdepend/pdepend": "*@stable",
-        "phploc/phploc": "*@stable",
+
         "phpmd/phpmd" : "*@stable",
         "phpmetrics/phpmetrics": "*@stable",
         "phpunit/phpunit": "*@stable",
         "sebastian/phpcpd": "*@stable",
         "squizlabs/php_codesniffer": "*@stable",
-        "theseer/phpdox": "*@stable"
+        "theseer/phpdox": "*@stable",
+        "sebastian/version": "1.0.6",
+        "symfony/console": "2.8",
+        "qafoo/quality-analyzer": "dev-master"
     }
 }
