@@ -18,16 +18,30 @@ This package provide some PHP quality assurance Tools inspired by http://jenkins
 ###Faker
 * https://github.com/fzaninotto/Faker
 
-##Quality assurance Tools
 
-####Basics
+
+##Quality assurance Tools
+###Analyze PHP code with one command
+
+[edgedesign/phpqa](https://github.com/EdgedesignCZ/phpqa)
+
+* phploc
+* phpcpd
+* pdepend
+* phpmd
+* phpmetrics
+
+```
+vendor/bin/phpqa --analyzedDir ./examples/src/ --buildDir ./build/logs --report
+```
+
+###Analyze PHP Code in seperate commands
 ```
 mkdir build/logs
 ```
 ####pdepend (https://pdepend.org/)
 ```
-mkdir build/pdepend
-vendor/bin/pdepend --jdepend-xml=./build/logs/jdepend.xml --jdepend-chart=./build/pdepend/dependencies.svg --overview-pyramid=./build/pdepend/overview-pyramid.svg ./examples/src/
+vendor/bin/pdepend --jdepend-xml=./build/logs/pdepend-jdepend.xml --summary-xml=./build/logs/pdepend-summary.xml --dependency-xml=./build/logs/pdepend-dependencies.xml --jdepend-chart=./build/logs/pdepend-jdepend.svg --overview-pyramid=./build/logs/pdepend-pyramid.svg ./examples/src/
 ```
 
 ####phpcpd (https://github.com/sebastianbergmann/phpcpd)

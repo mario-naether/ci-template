@@ -23,13 +23,9 @@
         "league/factory-muffin-faker": "*@stable",
 
         "mikey179/vfsStream": "*@stable",
-        "pdepend/pdepend": "*@stable",
-        "phploc/phploc": "*@stable",
-        "phpmd/phpmd" : "*@stable",
-        "phpmetrics/phpmetrics": "*@stable",
-        "phpunit/phpunit": "*@stable",
-        "sebastian/phpcpd": "*@stable",
-        "squizlabs/php_codesniffer": "*@stable",
-        "theseer/phpdox": "*@stable"
+        "theseer/phpdox": "*@stable",
+        "edgedesign/phpqa": "*",
+        "sebastian/phpcpd": "dev-master"
+
     }
 }
