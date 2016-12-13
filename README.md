@@ -48,3 +48,23 @@ vendor/bin/pdepend --jdepend-xml=./build/logs/pdepend-jdepend.xml --summary-xml=
 ```
 vendor/bin/phpcpd --log-pmd build/logs/pmd-cpd.xml ./examples/src
 ```
+ 
+####phploc (https://github.com/sebastianbergmann/phploc)
+```
+vendor/bin/phploc --progress  --exclude=vendor ./examples/src/ --log-xml ./build/logs/phploc.xml
+```
+
+####phpmd (https://phpmd.org/)
+````
+vendor/bin/phpmd examples/src xml ./vendor/edgedesign/phpqa/app/phpmd.xml --suffixes php  --exclude /vendor/ --reportfile ./build/logs/phpmd.xml
+````
+
+####phpcs (https://github.com/squizlabs/PHP_CodeSniffer)
+````
+vendor/bin/phpcs -p --extensions=php --standard=PSR2  --ignore=*/vendor/* ./examples/src/ --report=checkstyle --report-file=./build/logs/checkstyle.xml
+````
+
+####phpmetrics (https://github.com/phpmetrics/PhpMetrics)
+````
+vendor/bin/phpmetrics ./examples/src/ --extensions php  --excluded-dirs="vendor" --offline --report-html ./build/logs/phpmetrics.html --report-xml ./build/logs/phpmetrics.xml
+````
