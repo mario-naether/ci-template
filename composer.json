@@ -24,8 +24,6 @@
 
         "mikey179/vfsStream": "*@stable",
         "theseer/phpdox": "*@stable",
-        "edgedesign/phpqa": "*",
-        "sebastian/phpcpd": "dev-master"
-
+        "edgedesign/phpqa": "*"
     }
 }

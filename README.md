@@ -27,6 +27,7 @@ This package provide some PHP quality assurance Tools inspired by http://jenkins
 
 * phploc
 * phpcpd
+* phpcs
 * pdepend
 * phpmd
 * phpmetrics
@@ -34,6 +35,13 @@ This package provide some PHP quality assurance Tools inspired by http://jenkins
 ```
 vendor/bin/phpqa --analyzedDir ./examples/src/ --buildDir ./build/logs --report
 ```
+
+If you have problems with phpcpd and progress, use one of this versions.
+````
+"sebastian/phpcpd": "dev-master"
+
+"sebastian/phpcpd": "dev-de9056615da6c1230f3294384055fa7d722c38fa"
+````
 
 ###Analyze PHP Code in seperate commands
 ```
