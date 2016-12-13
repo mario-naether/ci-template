@@ -19,11 +19,23 @@
         "codeception/mockery-module": "^0.2.2",
         "nathanmac/datetime-codeception-module": "^1.2",
         "codeception/robo-paracept":"~0.2",
+        "site5/phantoman": "*",
         "league/factory-muffin": "*@stable",
         "league/factory-muffin-faker": "*@stable",
 
+
         "mikey179/vfsStream": "*@stable",
         "theseer/phpdox": "*@stable",
-        "edgedesign/phpqa": "*"
+        "edgedesign/phpqa": "*",
+        "jakoch/phantomjs-installer": "*"
+
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
     }
 }
