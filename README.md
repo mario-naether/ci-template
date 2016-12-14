@@ -23,6 +23,19 @@ This package provide some PHP quality assurance Tools inspired by http://jenkins
 * https://github.com/fzaninotto/Faker
 
 
+###Automatic PhantomJS install
+For using the PhantomJS installer, add this code to your composer.json
+````
+"scripts-dev": {
+    "post-install-cmd": [
+        "PhantomInstaller\\Installer::installPhantomJS"
+    ],
+    "post-update-cmd": [
+        "PhantomInstaller\\Installer::installPhantomJS"
+    ]
+}
+````
+
 
 ##Quality assurance Tools
 ###Analyze PHP code with one command

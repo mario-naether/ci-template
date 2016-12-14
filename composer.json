@@ -28,15 +28,8 @@
         "mikey179/vfsStream": "*@stable",
         "theseer/phpdox": "*@stable",
         "edgedesign/phpqa": "*",
-        "jakoch/phantomjs-installer": "*"
 
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "PhantomInstaller\\Installer::installPhantomJS"
-        ],
-        "post-update-cmd": [
-            "PhantomInstaller\\Installer::installPhantomJS"
-        ]
+        "jakoch/phantomjs-installer": "*",
+        "neronmoon/scriptsdev": "*"
     }
 }
