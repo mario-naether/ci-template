@@ -6,6 +6,8 @@ php:
 install:
   - if [ -n "$GITHUB_OAUTH_TOKEN" ]; then composer config github-oauth.github.com ${GITHUB_OAUTH_TOKEN}; fi;
   - composer update
+script:
+  - vendor/bin/phpqa --verbose --analyzedDir ./examples/src/ --buildDir ./build/logs --report
 cache:
   directories:
     - vendor
