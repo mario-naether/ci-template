@@ -1,8 +1,9 @@
 {
     "name": "mario-naether/php-ci-template",
-    "description": "",
+    "description": "provide some PHP quality assurance Tools and codeception extension",
     "minimum-stability": "stable",
-    "keywords": [],
+    "keywords": ["codeception", "php", "unittest"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Mario Näther",

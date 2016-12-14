@@ -1,6 +1,7 @@
 # php-ci-template
 [![Latest Stable Version](https://poser.pugx.org/mario-naether/php-ci-template/v/stable)](https://packagist.org/packages/mario-naether/php-ci-template)
 [![Latest Unstable Version](https://poser.pugx.org/mario-naether/php-ci-template/v/unstable)](https://packagist.org/packages/mario-naether/php-ci-template)
+[![License](https://poser.pugx.org/mario-naether/php-ci-template/license)](https://packagist.org/packages/mario-naether/php-ci-template)
 
 This package provide some PHP quality assurance Tools inspired by http://jenkins-php.org/
 
