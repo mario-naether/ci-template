@@ -2,6 +2,9 @@
 [![Latest Stable Version](https://poser.pugx.org/mario-naether/php-ci-template/v/stable)](https://packagist.org/packages/mario-naether/php-ci-template)
 [![Latest Unstable Version](https://poser.pugx.org/mario-naether/php-ci-template/v/unstable)](https://packagist.org/packages/mario-naether/php-ci-template)
 [![License](https://poser.pugx.org/mario-naether/php-ci-template/license)](https://packagist.org/packages/mario-naether/php-ci-template)
+[![Build Status](https://travis-ci.org/mario-naether/php-ci-template.svg?branch=0.4.0)](https://travis-ci.org/mario-naether/php-ci-template)
+[![PHP runtimes](https://php-eye.com/badge/mario-naether/php-ci-template/tested.svg?style=plastic)](http://php-eye.com/package/mario-naether/php-ci-template)
+[![PHP runtimes](http://php-eye.com/badge/mario-naether/php-ci-template/not-tested.svg?style=plastic)](http://php-eye.com/package/mario-naether/php-ci-template)
 
 This package provide some PHP quality assurance Tools inspired by http://jenkins-php.org/
 
