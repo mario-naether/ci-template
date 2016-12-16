@@ -31,5 +31,9 @@
 
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*"
+    },
+
+    "autoload-dev": {
+        "psr-0" : {"":"examples/src"}
     }
 }
