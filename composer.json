@@ -35,5 +35,14 @@
 
     "autoload-dev": {
         "psr-0" : {"":"examples/src"}
+    },
+
+    "scripts-dev": {
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
     }
 }
