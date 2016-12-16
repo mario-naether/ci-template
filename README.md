@@ -53,11 +53,15 @@ For using the PhantomJS installer, add this code to your composer.json
 vendor/bin/phpqa --analyzedDir ./examples/src/ --buildDir ./build/logs --report
 ```
 
-If you have problems with phpcpd and progress, use one of this versions.
-````
-"sebastian/phpcpd": "dev-master"
+For a working Copy/Paste Detection in PHP QA Tool using this:
 
-"sebastian/phpcpd": "dev-de9056615da6c1230f3294384055fa7d722c38fa"
+PHP 5.4/5.5
+````
+composer require sebastian/phpcpd:dev-master#de90566 --ignore-platform-reqs php
+````
+PHP >= 5.6
+````
+composer require sebastian/phpcpd:dev-master
 ````
 
 ###Analyze PHP Code in seperate commands
