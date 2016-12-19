@@ -17,7 +17,7 @@ install:
   - if [[ ${TRAVIS_PHP_VERSION} == "7.1" ]]; then composer require sebastian/phpcpd:dev-master; fi
   - if [[ ${TRAVIS_PHP_VERSION} == "hhvm" ]]; then composer require sebastian/phpcpd:dev-master; fi
 script:
-  - vendor/bin/phpqa --verbose --analyzedDir ./examples/src/ --buildDir ./build/logs --report
+  - vendor/bin/phpqa --verbose --analyzedDirs ./examples/src/ --buildDir ./build/logs --report
   - if [[ ${TRAVIS_PHP_VERSION} != "hhvm" ]]; then vendor/bin/codecept run -v --steps  --coverage --coverage-xml --coverage-html; fi
   - if [[ ${TRAVIS_PHP_VERSION} == "hhvm" ]]; then vendor/bin/codecept run -v --steps; fi
 cache:

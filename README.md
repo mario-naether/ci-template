@@ -53,7 +53,7 @@ For using the PhantomJS installer, add this code to your composer.json
 * phpmetrics
 
 ```
-vendor/bin/phpqa --analyzedDir ./examples/src/ --buildDir ./build/logs --report
+vendor/bin/phpqa --analyzedDirs ./examples/src/ --buildDir ./build/logs --report
 ```
 
 For a working Copy/Paste Detection in PHP QA Tool using this:
