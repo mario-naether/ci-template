@@ -36,5 +36,11 @@ class PoolTest extends PHPUnit_Framework_TestCase {
             verify($this->pool->getCount())->equals(1);
         });
     }
+
+    public function testWithMockery() {
+        $pool = \Mockery::mock(new \Pool);
+        $this->assertNotNull($pool);
+        $this->assertEquals(0, $pool->getCount());
+    }
 }
 ?>
