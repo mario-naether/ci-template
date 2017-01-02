@@ -30,7 +30,8 @@
         "edgedesign/phpqa": "*",
 
         "jakoch/phantomjs-installer": "*",
-        "neronmoon/scriptsdev": "*"
+        "neronmoon/scriptsdev": "*",
+        "hirak/prestissimo": "*"
     },
 
     "autoload-dev": {
