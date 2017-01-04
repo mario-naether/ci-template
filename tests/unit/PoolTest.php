@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class PoolTest
  */
@@ -30,7 +29,8 @@ class PoolTest extends PHPUnit_Framework_TestCase {
     public function testWithSpecify() {
 
         $this->assertInstanceOf('Pool', $this->pool);
-        $this->pool->addCar("Car2");
+        $faker = \Faker\Factory::create();
+        $this->pool->addCar($faker->word);
 
         $this->specify('check pool count ', function() {
             verify($this->pool->getCount())->equals(1);
