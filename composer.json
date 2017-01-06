@@ -27,7 +27,7 @@
 
         "mikey179/vfsStream": "*@stable",
 
-        "qafoo/quality-analyzer": "dev-master"
+        "qafoo/quality-analyzer": "dev-master",
         "theseer/phpdox": "*@stable",
         "edgedesign/phpqa": "*",
 
