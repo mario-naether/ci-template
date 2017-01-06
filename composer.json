@@ -1,8 +1,9 @@
 {
     "name": "mario-naether/php-ci-template",
-    "description": "",
+    "description": "provide some PHP quality assurance Tools and codeception extension",
     "minimum-stability": "stable",
-    "keywords": [],
+    "keywords": ["codeception", "php", "unittest"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Mario Näther",
@@ -19,20 +20,32 @@
         "codeception/mockery-module": "^0.2.2",
         "nathanmac/datetime-codeception-module": "^1.2",
         "codeception/robo-paracept":"~0.2",
+        "site5/phantoman": "*",
         "league/factory-muffin": "*@stable",
         "league/factory-muffin-faker": "*@stable",
 
-        "mikey179/vfsStream": "*@stable",
-        "pdepend/pdepend": "*@stable",
 
-        "phpmd/phpmd" : "*@stable",
-        "phpmetrics/phpmetrics": "*@stable",
-        "phpunit/phpunit": "*@stable",
-        "sebastian/phpcpd": "*@stable",
-        "squizlabs/php_codesniffer": "*@stable",
-        "theseer/phpdox": "*@stable",
-        "sebastian/version": "1.0.6",
-        "symfony/console": "2.8",
+        "mikey179/vfsStream": "*@stable",
+
         "qafoo/quality-analyzer": "dev-master"
+        "theseer/phpdox": "*@stable",
+        "edgedesign/phpqa": "*",
+
+        "jakoch/phantomjs-installer": "*",
+        "neronmoon/scriptsdev": "*"
+    },
+
+    "autoload-dev": {
+        "psr-0" : {"":"examples/src"}
+    },
+
+    "scripts-dev": {
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
+
     }
 }
