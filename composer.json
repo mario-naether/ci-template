@@ -20,6 +20,7 @@
         "codeception/mockery-module": "^0.2.2",
         "nathanmac/datetime-codeception-module": "^1.2",
         "codeception/robo-paracept":"~0.2",
+        "codeception/c3": "*",
         "site5/phantoman": "*",
         "league/factory-muffin": "*@stable",
         "league/factory-muffin-faker": "*@stable",
