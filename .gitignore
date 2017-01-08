@@ -65,3 +65,4 @@ fabric.properties
 
 tests/_output/*
 /c3.php
+/composer.lock
