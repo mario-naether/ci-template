@@ -15,7 +15,6 @@
         "codeception/codeception": "^2.2",
 
         "codeception/robo-paracept":"~0.2",
-        "codeception/visualception": "dev-master",
         "codeception/verify": "^0.3.2",
         "codeception/specify": "^0.4.5",
         "codeception/mockery-module": "^0.2.2",
