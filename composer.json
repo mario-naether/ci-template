@@ -26,6 +26,7 @@
         "league/factory-muffin": "*",
         "league/factory-muffin-faker": "*",
         "redcomponent/teststatistics": "*",
+        "justblackbird/codeception-config-module": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",

@@ -15,7 +15,7 @@ class GoogleCest
     public function tryToTest(AcceptanceTester $I)
     {
         $I->amOnPage('/');
-        $I->fillField('q', 'testing');
+        $I->fillField('q', $I->grabFromConfig('googleSearchWord'));
         $I->click('Google-Suche');
         $I->seeInCurrentUrl('q=testing');
     }

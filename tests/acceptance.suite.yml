@@ -11,6 +11,8 @@ modules:
             url: http://www.google.de
             browser: phantomjs
         - \Helper\Acceptance
+        - Config:
+            googleSearchWord: 'testing'
 
 coverage:
     enabled: false
