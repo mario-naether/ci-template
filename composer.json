@@ -25,7 +25,7 @@
         "site5/phantoman": "*",
         "league/factory-muffin": "*",
         "league/factory-muffin-faker": "*",
-
+        "redcomponent/teststatistics": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",

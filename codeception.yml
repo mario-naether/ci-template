@@ -16,6 +16,7 @@ extensions:
         - Codeception\Extension\Recorder
         - Codeception\Extension\RunFailed
         - Codeception\Extension\Phantoman
+        - Codeception\Extension\Teststatistics
     config:
         Codeception\Extension\Phantoman:
             path: 'vendor/bin/phantomjs'
