@@ -3,16 +3,16 @@
 
 class PhpBuildInServerCest
 {
-    public function _before(AcceptanceTester $I)
+    public function _before(FunctionalTester $I)
     {
     }
 
-    public function _after(AcceptanceTester $I)
+    public function _after(FunctionalTester $I)
     {
     }
 
     // tests
-    public function php_buildin_server_should_be_run(AcceptanceTester $I)
+    public function php_buildin_server_should_be_run(FunctionalTester $I)
     {
         $I->amOnUrl('http://localhost:8000');
         $I->amOnPage('/index.php');

@@ -27,7 +27,7 @@ extensions:
             port: 8000
             autostart: true
             documentRoot: tests/_data
-            startDelay: 1
+            startDelay: 5
 modules:
     config:
         Db:

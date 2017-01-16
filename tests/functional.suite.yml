@@ -9,3 +9,8 @@ modules:
     enabled:
         # add framework module here
         - \Helper\Functional
+        - PhpBrowser
+
+    config:
+        PhpBrowser:
+            url: http://localhost:8000
