@@ -18,6 +18,7 @@ extensions:
         - Codeception\Extension\Phantoman
         - Codeception\Extension\Teststatistics
         - Codeception\Extension\PhpBuiltinServer
+        - Codeception\Extension\GherkinParam
     config:
         Codeception\Extension\Phantoman:
             path: 'vendor/bin/phantomjs'

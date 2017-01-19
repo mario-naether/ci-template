@@ -28,6 +28,7 @@
         "redcomponent/teststatistics": "*",
         "justblackbird/codeception-config-module": "*",
         "codeception/phpbuiltinserver": "*",
+        "edno/codeception-gherkin-param": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",

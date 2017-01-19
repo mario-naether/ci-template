@@ -24,4 +24,18 @@ class AcceptanceTester extends \Codeception\Actor
    /**
     * Define custom actions here
     */
+
+    /**
+     * @Given I have a parameter :param with value :value
+     */
+    public function setParam($param, $value){
+        \Codeception\Util\Fixtures::add($param, $value);
+    }
+
+    /**
+     * @Then I should see :arg1 equals :arg2
+     */
+    public function iShouldSeeEquals($arg1, $arg2){
+        $this->assertEquals($arg1, $arg2);
+    }
 }
