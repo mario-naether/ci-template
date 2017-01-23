@@ -30,6 +30,7 @@
         "codeception/phpbuiltinserver": "*",
         "edno/codeception-gherkin-param": "*",
         "mcustiel/codeception-http-mock": "*",
+        "ahmedsamy/codeception-smtp-mail": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",
