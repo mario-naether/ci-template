@@ -29,6 +29,7 @@
         "justblackbird/codeception-config-module": "*",
         "codeception/phpbuiltinserver": "*",
         "edno/codeception-gherkin-param": "*",
+        "mcustiel/codeception-http-mock": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",
