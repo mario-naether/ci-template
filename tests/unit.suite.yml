@@ -10,3 +10,9 @@ modules:
         - Mockery
         - Date
         - Time
+        - DataProvider
+    config:
+        DataProvider:
+            dataPathTpl: '{root}/tests/_data/{file}'
+            files:
+                - myTestingData.yml

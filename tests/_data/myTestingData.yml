@@ -1,0 +1,10 @@
+users:
+    admins:
+        0:
+            id: 123
+            email: John(at)example.com
+            fullName: John Example
+        1:
+            id: 321
+            email: two(at)gmail.com
+            fullName: Tom The Second
