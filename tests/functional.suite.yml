@@ -10,7 +10,13 @@ modules:
         # add framework module here
         - \Helper\Functional
         - PhpBrowser
+        - Redirects
+        - REST
+
 
     config:
         PhpBrowser:
+            url: http://localhost:8000
+        REST:
+            depends: PhpBrowser
             url: http://localhost:8000

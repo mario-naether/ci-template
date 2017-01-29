@@ -18,4 +18,9 @@ class PhpBuildInServerCest
         $I->amOnPage('/index.php');
         $I->see('Foo Bar Server is Running');
     }
+
+    public function checkRedirect(FunctionalTester $I) {
+        $I->urlDoesNotRedirect('/index.php');
+        $I->seePermanentRedirectBetween('/redi.php', 'index.php');
+    }
 }
