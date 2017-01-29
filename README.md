@@ -17,6 +17,14 @@ This package provide some PHP quality assurance Tools inspired by http://jenkins
 * [codeception/specify](https://github.com/Codeception/Specify)
 * [codeception/mockery-module](http://budiirawan.com/using-mockery-codeception) 
 * [nathanmac/datetime-codeception-module](https://github.com/nathanmac/datetime-codeception-module)
+* [redcomponent/teststatistics](https://github.com/redCOMPONENT-COM/teststatistics)
+* [justblackbird/codeception-config-module](https://github.com/JustBlackBird/codeception-config-module)
+* [codeception/phpbuiltinserver](https://github.com/tiger-seo/PhpBuiltinServer)
+* [edno/codeception-gherkin-param](https://github.com/edno/codeception-gherkin-param)
+* [mcustiel/codeception-http-mock](https://github.com/mcustiel/codeception-http-mock)
+* [ahmedsamy/codeception-smtp-mail](https://github.com/AhmedSamy/codeception-smtp-mail)
+* [jacekk/codeception-dataprovider-module](https://github.com/jacekk/codeception-dataprovider-module)
+* [gamajo-codeception-redirects](https://github.com/gamajo/codeception-redirects)
 
 
 ###Factory Muffin Faker
