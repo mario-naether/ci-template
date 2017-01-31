@@ -29,7 +29,6 @@
         "justblackbird/codeception-config-module": "*",
         "codeception/phpbuiltinserver": "*",
         "edno/codeception-gherkin-param": "*",
-        "mcustiel/codeception-http-mock": "*",
         "ahmedsamy/codeception-smtp-mail": "*",
         "jacekk/codeception-dataprovider-module": "*",
         "gamajo/codeception-redirects": "*",
