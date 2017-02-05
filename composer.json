@@ -12,14 +12,14 @@
     ],
 
     "require": {
-        "codeception/codeception": "^2.2",
+        "codeception/codeception": "^2",
 
-        "codeception/robo-paracept":"~0.2",
-        "codeception/verify": "^0.3.2",
-        "codeception/specify": "^0.4.5",
-        "codeception/mockery-module": "^0.2.2",
-        "nathanmac/datetime-codeception-module": "^1.2",
-        "captbaritone/mailcatcher-codeception-module": "1.*",
+        "codeception/robo-paracept":"*",
+        "codeception/verify": "*",
+        "codeception/specify": "*",
+        "codeception/mockery-module": "*",
+        "nathanmac/datetime-codeception-module": "*",
+        "captbaritone/mailcatcher-codeception-module": "*",
         "codeception/c3": "*",
         "site5/phantoman": "*",
         "league/factory-muffin": "*",
