@@ -19,7 +19,6 @@
         "codeception/specify": "^0.4.5",
         "codeception/mockery-module": "^0.2.2",
         "nathanmac/datetime-codeception-module": "^1.2",
-
         "captbaritone/mailcatcher-codeception-module": "1.*",
         "codeception/c3": "*",
         "site5/phantoman": "*",
@@ -32,6 +31,7 @@
         "ahmedsamy/codeception-smtp-mail": "*",
         "jacekk/codeception-dataprovider-module": "*",
         "gamajo/codeception-redirects": "*",
+        "mcustiel/codeception-http-mock": "*",
 
         "mikey179/vfsStream": "*",
         "theseer/phpdox": "*@stable",
