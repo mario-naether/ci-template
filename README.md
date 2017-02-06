@@ -108,3 +108,8 @@ vendor/bin/phpcs -p --extensions=php --standard=PSR2  --ignore=*/vendor/* ./exam
 ````
 vendor/bin/phpmetrics ./examples/src/ --extensions php  --excluded-dirs="vendor" --offline --report-html ./build/logs/phpmetrics.html --report-xml ./build/logs/phpmetrics.xml
 ````
+
+####php-cs-fixer (https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+````
+vendor/bin/php-cs-fixer fix
+````
