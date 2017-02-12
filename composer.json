@@ -40,7 +40,8 @@
 
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*",
-        "monolog/monolog": "*"
+        "monolog/monolog": "*",
+        "etsy/phpunit-extensions": "*"
     },
 
     "autoload-dev": {

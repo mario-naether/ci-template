@@ -42,5 +42,16 @@ class PoolTest extends PHPUnit_Framework_TestCase {
         $this->assertNotNull($pool);
         $this->assertEquals(0, $pool->getCount());
     }
+
+    public function testWithProxyClass() {
+        $this->pool->addCar("Car1");
+        $this->pool->addCar("Car2");
+
+        /* @var $pool Pool */
+        $pool = new PHPUnit_Extensions_Helper_AccessibleObject($this->pool);
+        $pool->addElementToEndOfPool('Golf');
+        $this->assertSame(3, $this->pool->getCount());
+        $this->assertSame('Golf', $this->pool->getPool()[2]);
+    }
 }
 ?>
