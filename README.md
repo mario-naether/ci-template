@@ -70,10 +70,7 @@ PHP 5.4/5.5
 ````
 composer require sebastian/phpcpd:dev-master#de90566 --ignore-platform-reqs php
 ````
-PHP >= 5.6
-````
-composer require sebastian/phpcpd:dev-master
-````
+
 
 ###Analyze PHP Code in seperate commands
 ```

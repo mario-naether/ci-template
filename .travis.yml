@@ -31,7 +31,6 @@ matrix:
 before_script:
   - if [ -n "$GITHUB_OAUTH_TOKEN" ]; then composer config github-oauth.github.com ${GITHUB_OAUTH_TOKEN}; fi;
   - composer update
-  - composer require sebastian/phpcpd:dev-master
 script:
   - vendor/bin/phpqa --verbose --analyzedDirs ./examples/src/ --buildDir ./build/logs --report
   - vendor/bin/php-cs-fixer fix
