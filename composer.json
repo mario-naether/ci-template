@@ -34,7 +34,6 @@
         "mcustiel/codeception-http-mock": "*",
 
         "mikey179/vfsStream": "*",
-        "theseer/phpdox": "*@stable",
         "edgedesign/phpqa": "*",
         "friendsofphp/php-cs-fixer": "*",
 
