@@ -39,7 +39,8 @@
 
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*",
-        "monolog/monolog": "*"
+        "monolog/monolog": "*",
+        "nikic/php-parser": "^2.0"
     },
 
     "autoload-dev": {
