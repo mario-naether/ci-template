@@ -35,12 +35,12 @@
 
         "mikey179/vfsStream": "*",
         "edgedesign/phpqa": "*",
+        "phpmetrics/phpmetrics": "~2",
         "friendsofphp/php-cs-fixer": "*",
 
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*",
-        "monolog/monolog": "*",
-        "nikic/php-parser": "^2.0"
+        "monolog/monolog": "*"
     },
 
     "autoload-dev": {
