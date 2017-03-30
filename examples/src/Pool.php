@@ -1,4 +1,7 @@
 <?php
+/**
+ * Example Pool to test some unittest functionality
+ */
 final class Pool
 {
     protected $pool = array();
@@ -7,6 +10,10 @@ final class Pool
         $this->pool[] = $carName;
     }
 
+    /**
+     * Get number of elements in pool
+     * @return int
+     */
     public function getCount() {
 
         return count($this->pool);

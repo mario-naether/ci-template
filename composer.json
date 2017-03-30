@@ -37,10 +37,12 @@
         "edgedesign/phpqa": "*",
         "phpmetrics/phpmetrics": "~2",
         "friendsofphp/php-cs-fixer": "*",
+        "apigen/apigen": ">=4",
 
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*",
-        "monolog/monolog": "*"
+        "monolog/monolog": "*",
+        "symfony/event-dispatcher": "~2"
     },
 
     "autoload-dev": {

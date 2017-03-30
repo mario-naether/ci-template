@@ -34,6 +34,7 @@ before_script:
 script:
   - vendor/bin/phpqa --verbose --analyzedDirs ./examples/src/ --buildDir ./build/logs --report
   - vendor/bin/php-cs-fixer fix
+  - vendor/bin/apigen generate -s ./examples/src/ -d ./build/doc --template-theme bootstrap
   - if [ $TASK_TESTS_COVERAGE == 1 ]; then vendor/bin/codecept run -v --steps  --coverage --coverage-xml --coverage-html; fi
   - if [ $TASK_TESTS_COVERAGE == 0 ]; then vendor/bin/codecept run unit,acceptance -v --steps; fi
 cache:

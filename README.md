@@ -110,3 +110,8 @@ vendor/bin/phpmetrics ./examples/src/ --extensions php  --excluded-dirs="vendor"
 ````
 vendor/bin/php-cs-fixer fix
 ````
+
+####ApiGen (https://github.com/ApiGen/ApiGen)
+`````
+vendor/bin/apigen generate -s ./examples/src/ -d ./build/doc --template-theme bootstrap
+````
