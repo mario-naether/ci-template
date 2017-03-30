@@ -15,19 +15,16 @@ matrix:
         - php: 7.0
         - php: 7.1
         - php: nightly
-          env: TASK_TESTS_COVERAGE=0
-          env: TASK_API_GEN=0
+          env: TASK_TESTS_COVERAGE=0 TASK_API_GEN=0
 
         # Use the newer stack for HHVM as HHVM does not support Precise anymore since a long time and so Precise has an outdated version
         - php: hhvm-3.9
-          env: TASK_TESTS_COVERAGE=0
-          env: TASK_API_GEN=0
+          env: TASK_TESTS_COVERAGE=0 TASK_API_GEN=0
           sudo: required
           dist: trusty
           group: edge
         - php: hhvm
-          env: TASK_TESTS_COVERAGE=0
-          env: TASK_API_GEN=0
+          env: TASK_TESTS_COVERAGE=0 TASK_API_GEN=0
           sudo: required
           dist: trusty
           group: edge
@@ -38,7 +35,7 @@ before_script:
 script:
   - vendor/bin/phpqa --verbose --analyzedDirs ./examples/src/ --buildDir ./build/logs --report
   - vendor/bin/php-cs-fixer fix
-  - if [ $TASK_TESTS_COVERAGE == 1 ]; then vendor/bin/apigen generate -s ./examples/src/ -d ./build/doc --template-theme bootstrap; fi
+  - if [ TASK_API_GEN == 1 ]; then vendor/bin/apigen generate -s ./examples/src/ -d ./build/doc --template-theme bootstrap; fi
   - if [ $TASK_TESTS_COVERAGE == 1 ]; then vendor/bin/codecept run -v --steps  --coverage --coverage-xml --coverage-html; fi
   - if [ $TASK_TESTS_COVERAGE == 0 ]; then vendor/bin/codecept run unit,acceptance -v --steps; fi
 cache:
