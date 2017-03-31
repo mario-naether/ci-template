@@ -112,6 +112,6 @@ vendor/bin/php-cs-fixer fix
 ````
 
 ####ApiGen (https://github.com/ApiGen/ApiGen)
-`````
-vendor/bin/apigen generate -s ./examples/src/ -d ./build/doc --template-theme bootstrap
+````
+vendor/bin/apigen generate
 ````

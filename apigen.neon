@@ -1,0 +1,15 @@
+accessLevels:
+    - public
+    - private
+    - protected
+
+title: "My API Docs"
+extensions: [php] # array
+templateTheme: bootstrap
+todo: true
+tree: true
+exclude: [Tests]
+source:
+    - ./examples/src
+
+destination: ./build/doc
