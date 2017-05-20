@@ -34,7 +34,7 @@
         "mcustiel/codeception-http-mock": "*",
 
         "mikey179/vfsStream": "*",
-        "edgedesign/phpqa": "*",
+        "edgedesign/phpqa": "dev-master",
         "phpmetrics/phpmetrics": "~2",
         "friendsofphp/php-cs-fixer": "*",
         "apigen/apigen": ">=4",
