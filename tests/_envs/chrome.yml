@@ -1,0 +1,11 @@
+#http://phptest.club/t/how-to-run-headless-chrome-in-codeception/1544
+modules:
+    config:
+        WebDriver:
+            browser: chrome
+            port: 9515 # ChromeDriver port
+            window_size: 1920x1080
+            capabilities:
+              chromeOptions:
+                args: ["disable-infobars", "headless","disable-gpu", "window-size=1920x1080"]
+                #binary: "C:/Users/naether/Desktop/chrome-win32/chrome.exe"

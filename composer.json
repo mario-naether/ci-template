@@ -42,7 +42,8 @@
         "jakoch/phantomjs-installer": "*",
         "neronmoon/scriptsdev": "*",
         "monolog/monolog": "*",
-        "symfony/event-dispatcher": "~2"
+        "symfony/event-dispatcher": "~2",
+        "enm1989/chromedriver": "^2.30"
     },
 
     "autoload-dev": {
